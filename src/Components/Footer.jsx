@@ -33,7 +33,7 @@ const Footer = (props) => {
         alignItems: "center",
         gap: "2.5rem",
         padding: "5rem 0 3rem",
-        backgroundColor: primaryColor,
+        backgroundColor: "white",
         width: "100vw"
       }}
     >
@@ -46,7 +46,7 @@ const Footer = (props) => {
       >
         {email && (
           <a href={`mailto:asna.maheenn@gmail.com`}>
-            <img src={envelopeIcon} alt="email" className="socialIcon" />
+            <img src="..image/socials/envelope.svg" alt="email" className="socialIcon" />
           </a>
         )}
         {gitHub && (
